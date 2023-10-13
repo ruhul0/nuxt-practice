@@ -15,16 +15,16 @@
     // fetch the products
     const { data: products } =  await useFetch('https://fakestoreapi.com/products')
 
-    userHead({
-        title: 'Products',
-        meta: [
-            {
-                hid: 'description',
-                name: 'description',
-                content: 'Products page'
-            }
-        ]
-    })
+    // userHead({
+    //     title: 'Products',
+    //     meta: [
+    //         {
+    //             hid: 'description',
+    //             name: 'description',
+    //             content: 'Products page'
+    //         }
+    //     ]
+    // })
 </script>
 
 <style scoped>
